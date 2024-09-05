@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#body {
+    background: #F6F6F6;
+}
+
+.top-bar {
+    background: #111111;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 24.5%;
+    margin: 1.8%;
+    margin-left: 2.9%;
+}
+
+.icons {
+    width: 12.5%;
+    margin-right: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon {
+    height: 3.5vw;
+}
+
+.user-icon {
+    margin-top: 5%
+}
+
+.heart-icon {
+    margin-top: 1%
+}
+
+.banners {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-block: 2% 2%;
+   
+}
+
+.banner{
+    height: 50.5vh;
+    border-radius: 20px;
+    box-shadow: 5px 5px 2px rgba(0,0,0,0.25);
+    transition: transform 0.5s ease;
+}
+
+.banner:hover{
+    transform: scale(1.05);
+}
+
+hr {
+    margin-top: 10px;
+    border-top-width: 1px;
+    width: 95vw;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif; 
+    text-decoration: bold;
+    margin-left: 4%;
+    margin-block: 0 -0.3%;
+}
+
+.trending {
+    display: flex;
+    justify-content: space-between;
+    height: 21%;
+    margin-inline: 5% 5%;
+    margin-block: 2% 2%;
+}
+
+.trending-item {
+    height: 100%;
+    transition: transform 0.5s ease;
+}
+
+.trending-item:hover {
+    transform: scale(1.25);
+
+}
+
+.price1, .price2, .price3, .price4,
+.price5, .price6, .price7 {
+    background-color: #fff;
+    font-family: "Rhodium Libre", serif;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    scale: 1.25;
+    opacity: 0%;
+    height: 25%;
+    margin-top: -15%;
+    transition: opacity 0.5s ease;
+}
+
+.trending-link1:hover .price1, .trending-link2:hover .price2,
+.trending-link3:hover .price3, .trending-link4:hover .price4,
+.trending-link5:hover .price5, .trending-link6:hover .price6,
+.trending-link7:hover .price7 {
+    opacity: 100%;
+}
+
+a {
+    color: #000;
+}
+
+.trending a {
+    text-decoration: none;
+    color: #000;
+}
